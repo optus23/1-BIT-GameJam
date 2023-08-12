@@ -663,8 +663,10 @@ MonoBehaviour:
   minPValue: 0
   maxDValue: 1
   minDValue: 0
-  intenP: 0
   timeToChange: 3
+  renderer_assets:
+  - {fileID: 2048490883}
+  - {fileID: 1766576868}
 --- !u!1 &2048490881
 GameObject:
   m_ObjectHideFlags: 0
