@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4f8152e3-7e7a-4aee-bce4-9c53b1d828cf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.1-BIT-GameJam/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.1-BIT-GameJam/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.1-BIT-GameJam/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.1-BIT-GameJam/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.1-BIT-GameJam/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DitherMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DitherMat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HD-wallpaper-big-yellow-cat-animl-big-cat-cats-pet-yellow-cat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HD-wallpaper-big-yellow-cat-animl-big-cat-cats-pet-yellow-cat.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lighthouse.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lighthouse.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/HD-wallpaper-big-yellow-cat-animl-big-cat-cats-pet-yellow-cat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/HD-wallpaper-big-yellow-cat-animl-big-cat-cats-pet-yellow-cat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/HD-wallpaper-big-yellow-cat-animl-big-cat-cats-pet-yellow-cat.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/HD-wallpaper-big-yellow-cat-animl-big-cat-cats-pet-yellow-cat.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/ancla_placeholder 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/ancla_placeholder 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/ancla_placeholder 2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/ancla_placeholder 2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/ancla_placeholder 3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/ancla_placeholder 3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/ancla_placeholder 4.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/ancla_placeholder 4.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/ancla_placeholder 4.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/ancla_placeholder 4.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/ancla_placeholder.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/ancla_placeholder.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/faro_placeholder 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/faro_placeholder 1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/faro_placeholder.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/faro_placeholder.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ObraDinn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ObraDinn/BayerMatrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ObraDinn/BayerMatrix.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ObraDinn/BlueNoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ObraDinn/BlueNoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ObraDinn/ColorRamp2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ObraDinn/ColorRamp2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ObraDinn/Dither.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ObraDinn/Dither.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ObraDinn/Effects_Dither.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ObraDinn/Effects_Dither.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ObraDinn/Effects_Threshold.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ObraDinn/Effects_Threshold.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ObraDinn/ObraDinn.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ObraDinn/ObraDinn.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ObraDinn/ObraDinnSurface.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ObraDinn/ObraDinnSurface.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ObraDinn/Threshold.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ObraDinn/Threshold.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ObraMat 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ObraMat 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ObraMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ObraMat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ObraMatDither.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ObraMatDither.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Paint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Paint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Readme.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Readme.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainSquence.playable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainSquence.playable.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene Normal.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene Normal.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SceneEventManager.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SceneEventManager.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObraDinnCameraScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObraDinnCameraScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Balanced-Renderer.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Balanced-Renderer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Balanced.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Balanced.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity-Renderer.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity-Renderer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Performant-Renderer.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Performant-Renderer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Performant.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Performant.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/ObraDinnShader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/ObraDinnShader/BayerMatrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/ObraDinnShader/BayerMatrix.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/ObraDinnShader/BlueNoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/ObraDinnShader/BlueNoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/ObraDinnShader/ColorRamp2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/ObraDinnShader/ColorRamp2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/ObraDinnShader/Dither.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/ObraDinnShader/Dither.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/ObraDinnShader/DitherMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/ObraDinnShader/DitherMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/ObraDinnShader/Effects_Threshold.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/ObraDinnShader/Effects_Threshold.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/ObraDinnShader/ObraDinnSurface.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/ObraDinnShader/ObraDinnSurface.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/ObraDinnShader/Test.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/ObraDinnShader/Test.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/ObraDinnShader/Threshold.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/ObraDinnShader/Threshold.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/ObraDinnShader/Wood.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/ObraDinnShader/Wood.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skybox.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skybox.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skybox/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skybox/Materials.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skybox/Materials/Skybox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skybox/Materials/Skybox.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skybox/Materials/Skybox.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skybox/Materials/Skybox.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skybox/Skybox-0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skybox/Skybox-0.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skybox/Skybox-1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skybox/Skybox-1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skybox/Skybox-2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skybox/Skybox-2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skybox/Skybox.cubemap" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skybox/Skybox.cubemap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skybox/Skybox.cubemap.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skybox/Skybox.cubemap.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TFPSampleScene.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TFPSampleScene/New Terrain.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TFPSampleScene/New Terrain.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TFPSampleScene/NewLayer 1.terrainlayer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TFPSampleScene/NewLayer 1.terrainlayer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TFPSampleScene/NewLayer.terrainlayer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TFPSampleScene/NewLayer.terrainlayer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TFPSampleScene/TFPSampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TFPSampleScene/TFPSampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TFPSampleScene/TestZoneMat1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TFPSampleScene/TestZoneMat1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TFPSampleScene/TestZoneMat2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TFPSampleScene/TestZoneMat2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/ExampleExtensions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/ExampleExtensions/Debug.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/ExampleExtensions/Debug/DebugLine.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/ExampleExtensions/Debug/DebugLine.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/ExampleExtensions/FootstepSystem.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/ExampleExtensions/FootstepSystem/FootstepGroup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/ExampleExtensions/FootstepSystem/FootstepGroup.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/ExampleExtensions/FootstepSystem/FootstepSounds.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/ExampleExtensions/FootstepSystem/FootstepSounds.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/ExampleExtensions/FootstepSystem/TerrainSurface.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/ExampleExtensions/FootstepSystem/TerrainSurface.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/ExampleExtensions/ForceLook.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/ExampleExtensions/ForceLook/ForceLook.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/ExampleExtensions/ForceLook/ForceLook.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/ExampleExtensions/Jetpack.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/ExampleExtensions/Jetpack/Jetpack.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/ExampleExtensions/Jetpack/Jetpack.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/ExampleExtensions/JumpSound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/ExampleExtensions/JumpSound/JumpSound.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/ExampleExtensions/JumpSound/JumpSound.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/ExampleExtensions/UnwalkableColliders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/ExampleExtensions/UnwalkableColliders/UnwalkableColliders.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/ExampleExtensions/UnwalkableColliders/UnwalkableColliders.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/Helper.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/Helper/ConditionalHideAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/Helper/ConditionalHideAttribute.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/Helper/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/Helper/Editor/ConditionalHidePropertyDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/Helper/Editor/ConditionalHidePropertyDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/Helper/FPSLimiter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/Helper/FPSLimiter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/Helper/GizmoUtilities.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/Helper/GizmoUtilities.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/Helper/SimpleThirdPersonCamera.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/Helper/SimpleThirdPersonCamera.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/Player.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/Player/FPSController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/Player/FPSController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/Player/TFPData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/Player/TFPData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/Player/TFPExtension.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/Player/TFPExtension.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/Player/TFPInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/Player/TFPInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/Player/TFPInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Code/Player/TFPInput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Prefabs/Audio.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Prefabs/Audio/GravelFootstepGroup.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Prefabs/Audio/GravelFootstepGroup.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Prefabs/Audio/WoodFootstepGroup.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Prefabs/Audio/WoodFootstepGroup.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Prefabs/Audio/gravel-foot1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Prefabs/Audio/gravel-foot1.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Prefabs/Audio/gravel-foot2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Prefabs/Audio/gravel-foot2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Prefabs/Audio/gravel-foot3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Prefabs/Audio/gravel-foot3.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Prefabs/Audio/jetpack.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Prefabs/Audio/jetpack.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Prefabs/Audio/jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Prefabs/Audio/jump.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Prefabs/Audio/wood-foot1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Prefabs/Audio/wood-foot1.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Prefabs/Audio/wood-foot2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Prefabs/Audio/wood-foot2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Prefabs/Audio/wood-foot3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Prefabs/Audio/wood-foot3.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Prefabs/FootstepsPlayer.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Prefabs/FootstepsPlayer.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Prefabs/JetpackPlayer.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Prefabs/JetpackPlayer.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Prefabs/Player.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Prefabs/Player.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Prefabs/Third Person.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/Prefabs/Third Person.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheFirstPerson/TFP_v0.3.0-b.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Timeline.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Timeline.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Timeline/Signals.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Timeline/Signals.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ancla_placeholder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ancla_placeholder.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/cube.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/cube.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/faro_placeholder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/faro_placeholder.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/paint.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/paint.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/BurstAotSettings_StandaloneWindows.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/CommonBurstAotSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/SceneTemplateSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/SceneTemplateSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TimelineSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TimelineSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2TuGhVhCoDewEWmk7wcfrvOjsig" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Discover.Launch.Via.Unity": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\MARC\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\MARC\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\MARC\\AppData\\Local\\Symbols\\src"
+    ]
+  }
+}]]></component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="B:\UNITY\VERSIONS\2022.3.7f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath F:\DATA\PROJECTS\GameJams\1-Bit\Github\1-BIT-GameJam -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="F:\DATA\PROJECTS\GameJams\1-Bit\Github\1-BIT-GameJam" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="B:\UNITY\VERSIONS\2022.3.7f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath F:\DATA\PROJECTS\GameJams\1-Bit\Github\1-BIT-GameJam -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="F:\DATA\PROJECTS\GameJams\1-Bit\Github\1-BIT-GameJam" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f8152e3-7e7a-4aee-bce4-9c53b1d828cf" name="Changes" comment="" />
+      <created>1691885671708</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691885671708</updated>
+      <workItem from="1691885673389" duration="5000" />
+    </task>
+    <servers />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
