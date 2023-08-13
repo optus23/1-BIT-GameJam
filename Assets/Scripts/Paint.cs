@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Paint : MonoBehaviour
 {
-    Texture2D tex;
+    public Texture2D tex;
     // Use this for initialization
     void Start()
     {
-        tex = new Texture2D(64,64);
+        //tex = new Texture2D(64,64);
 
         GameObject.Find("Lienzo").GetComponent<Renderer>().sharedMaterial.mainTexture = tex;
     }
@@ -43,7 +43,7 @@ public class Paint : MonoBehaviour
             //if (Input.GetButton("Fire2"))
             //{
             //    for (int i = 0; i < 128; i++)
-            //    {
+            //    {e
             //        for (int j = 0; j < 128; j++)
             //        {
             //            tex.SetPixel(i, j, Color.white);
