@@ -3,17 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4f8152e3-7e7a-4aee-bce4-9c53b1d828cf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.1-BIT-GameJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.1-BIT-GameJam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/HD-wallpaper-big-yellow-cat-animl-big-cat-cats-pet-yellow-cat 1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/HD-wallpaper-big-yellow-cat-animl-big-cat-cats-pet-yellow-cat 1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/HD-wallpaper-big-yellow-cat-animl-big-cat-cats-pet-yellow-cat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/HD-wallpaper-big-yellow-cat-animl-big-cat-cats-pet-yellow-cat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/ancla_placeholder 4.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/ancla_placeholder 4.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/ObraDinn/BlueNoise.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/ObraDinn/BlueNoise.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/ObraDinn/Effects_Dither.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/ObraDinn/Effects_Dither.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/ObraDinn/Effects_Threshold.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/ObraDinn/Effects_Threshold.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/ObraDinn/ObraDinn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/ObraDinn/ObraDinn.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1691885671708</updated>
       <workItem from="1691885673389" duration="5000" />
-      <workItem from="1691920743738" duration="2156000" />
+      <workItem from="1691920743738" duration="3017000" />
     </task>
     <servers />
   </component>
