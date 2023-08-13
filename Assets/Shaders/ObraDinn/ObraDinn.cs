@@ -7,7 +7,13 @@ public class ObraDinn : MonoBehaviour
 
     public Material ditherMat;
     public Material thresholdMat;
+    
+    [Range( 1, 8 )]
+    [SerializeField]
+    private int m_size_multiplier = 1;
+
     private Camera cam;
+
 
     void Start() {
         cam = GetComponent<Camera>();
@@ -19,8 +25,8 @@ public class ObraDinn : MonoBehaviour
     }
 
     void OnRenderImage(RenderTexture src, RenderTexture dst) {
-        RenderTexture large = RenderTexture.GetTemporary(1640, 940, 0, RenderTextureFormat.ARGB32);
-        RenderTexture main = RenderTexture.GetTemporary(820, 470, 0, RenderTextureFormat.ARGB32);
+        RenderTexture large = RenderTexture.GetTemporary(1640*m_size_multiplier, 940*m_size_multiplier, 0, RenderTextureFormat.ARGB32);
+        RenderTexture main = RenderTexture.GetTemporary(840*m_size_multiplier, 470*m_size_multiplier, 0, RenderTextureFormat.ARGB32);
         large.filterMode = FilterMode.Bilinear;
         main.filterMode = FilterMode.Bilinear;
 
