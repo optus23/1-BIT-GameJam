@@ -46,7 +46,6 @@ public class ObraDinn : MonoBehaviour
 
         Graphics.Blit(src, large, ditherMat);
         Graphics.Blit(large, main, thresholdMat);
-        //Graphics.Blit(src, normal, mat);
         Graphics.Blit(main, dst);
 
         RenderTexture.ReleaseTemporary(large);
