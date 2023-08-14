@@ -10,7 +10,7 @@ public class Paint : MonoBehaviour
     {
         //tex = new Texture2D(64,64);
 
-        GameObject.Find("Lienzo").GetComponent<Renderer>().sharedMaterial.mainTexture = tex;
+        GameObject.Find("PlaneSailorForeArmFull").GetComponent<Renderer>().sharedMaterial.mainTexture = tex;
     }
 
     void Update()
