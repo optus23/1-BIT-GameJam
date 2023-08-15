@@ -35,11 +35,11 @@ public class MouseController : MonoBehaviour
     {
         m_MousePosition = Input.mousePosition;
         m_MousePosition.z = m_Camera.nearClipPlane + 1;
-        m_Cursor.position = m_Camera.ScreenToWorldPoint( m_MousePosition );
+        //m_Cursor.position = m_Camera.ScreenToWorldPoint( m_MousePosition );
 
         if (Input.GetKey(KeyCode.Mouse0))
         {
-            //m_QuadRenderTexture.gameObject.SetActive(true);
+            m_QuadRenderTexture.gameObject.SetActive(true);
             m_WorldPosition = m_Camera.ScreenToWorldPoint( m_MousePosition );
             
             m_ZoomCamera.position = new Vector3(m_WorldPosition.x * m_CameraOffset.x, m_WorldPosition.y * m_CameraOffset.y, m_ZoomCamera.position.z);

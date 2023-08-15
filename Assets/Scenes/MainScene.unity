@@ -336,7 +336,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.0000029504295}
   m_LocalPosition: {x: 0, y: 0, z: -84.99}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_LocalScale: {x: 2, y: 2, z: 0.052}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -353,7 +353,7 @@ GameObject:
   - component: {fileID: 226125033}
   - component: {fileID: 226125032}
   - component: {fileID: 226125031}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: PlaneSkyLayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -567,7 +567,7 @@ GameObject:
   - component: {fileID: 249986547}
   - component: {fileID: 249986546}
   - component: {fileID: 249986545}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: PlaneSeaLayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1205,7 +1205,7 @@ GameObject:
   - component: {fileID: 757901751}
   - component: {fileID: 757901750}
   - component: {fileID: 757901749}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: PlaneMountainsLayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1664,7 +1664,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 55
+    m_Bits: 183
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: 458299e0c5c174c4381ec3c6418bbe76, type: 2}
   m_TargetDisplay: 0
@@ -2483,9 +2483,10 @@ MonoBehaviour:
   tex: {fileID: 2800000, guid: 72573de75c4056446970d88526422225, type: 3}
   IgnoreLayerMask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 192
   MainCamera: {fileID: 1423893240}
   Plane: {fileID: 978775173}
+  m_Cursor: {fileID: 135309429}
 --- !u!4 &1949101043
 Transform:
   m_ObjectHideFlags: 0
