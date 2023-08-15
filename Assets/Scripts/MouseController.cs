@@ -16,27 +16,19 @@ public class MouseController : MonoBehaviour
     
     [SerializeField]
     private Camera m_Camera;
-    private bool m_enableZoomEffect;
-    
-    [SerializeField]
-    private Vector3 m_MousePosition;
-    
-    [SerializeField]
-    private Vector3 m_WorldPosition;
-
+  
     [SerializeField]
     private Vector3 m_CameraOffset;
+      
+    private Vector3 m_MousePosition;
+    private Vector3 m_WorldPosition;
     
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetKey(KeyCode.Mouse0))
         {
-            m_enableZoomEffect = !m_enableZoomEffect;
-            m_QuadRenderTexture.gameObject.SetActive(m_enableZoomEffect);
-        }
-
-        if ( m_enableZoomEffect )
-        {
+            m_QuadRenderTexture.gameObject.SetActive(true);
+            
             m_MousePosition = Input.mousePosition;
             m_MousePosition.z = m_Camera.nearClipPlane + 1;
             
@@ -44,6 +36,10 @@ public class MouseController : MonoBehaviour
             
             m_ZoomCamera.position = new Vector3(m_WorldPosition.x * m_CameraOffset.x, m_WorldPosition.y * m_CameraOffset.y, m_ZoomCamera.position.z);
             m_QuadRenderTexture.position = m_WorldPosition;
+        }
+        else
+        {
+            m_QuadRenderTexture.gameObject.SetActive(false);
         }
     }
 }

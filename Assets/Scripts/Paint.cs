@@ -1,27 +1,32 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class Paint : MonoBehaviour
 {
     public Texture2D tex;
+    public LayerMask IgnoreLayerMask;
+    public Camera MainCamera;
+    public GameObject Plane;
     // Use this for initialization
     void Start()
     {
         //tex = new Texture2D(64,64);
 
-        GameObject.Find("PlaneSailorForeArmFull").GetComponent<Renderer>().sharedMaterial.mainTexture = tex;
+        Plane.GetComponent<Renderer>().sharedMaterial.mainTexture = tex;
     }
 
     void Update()
     {
         if (tex != null)
         {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            Ray ray = MainCamera.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
             if (Input.GetButton("Fire1"))
             {
-                if (Physics.Raycast(ray, out hit, Mathf.Infinity))
+                if (Physics.Raycast(ray, out hit, Mathf.Infinity, ~IgnoreLayerMask))
                 {
                     // Find the u,v coordinate of the Texture
                     Vector2 uv;
@@ -53,4 +58,5 @@ public class Paint : MonoBehaviour
             //}
         }
     }
+    
 }
