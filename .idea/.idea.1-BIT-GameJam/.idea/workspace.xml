@@ -3,8 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="4f8152e3-7e7a-4aee-bce4-9c53b1d828cf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.1-BIT-GameJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.1-BIT-GameJam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PlaneSailorHead.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PlaneSailorHead.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/BackgroundScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/BackgroundScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/CabinOceanMovementAnimation.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/CabinOceanMovementAnimation.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Dither/Background/BackgroundCabinsCaptainMountains.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Dither/Background/BackgroundCabinsCaptainMountains.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Dither/Background/BackgroundCabinsCaptainSea.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Dither/Background/BackgroundCabinsCaptainSea.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/ZoomEffect/ZoomEffectMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/ZoomEffect/ZoomEffectMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZoomEffectScene 1.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZoomEffectScene 1.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MouseController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MouseController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/ObraDinn/Effects_Dither.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/ObraDinn/Effects_Dither.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +94,7 @@
       <workItem from="1691885673389" duration="5000" />
       <workItem from="1691920743738" duration="3362000" />
       <workItem from="1692004114276" duration="5636000" />
+      <workItem from="1692090782135" duration="4247000" />
     </task>
     <servers />
   </component>
