@@ -11,7 +11,8 @@ public class CursorPlacement : MonoBehaviour
 
     void Start()
     {
-        
+        IgnoreLayerMask.value = LayerMask.GetMask("IgnoreZoomEffect", "IgnorePaint");
+
     }
 
     void Update()

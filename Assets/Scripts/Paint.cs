@@ -19,11 +19,11 @@ public class Paint : MonoBehaviour
     {
             Ray ray = MainCamera.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
-            if (Physics.Raycast(ray, out hit, Mathf.Infinity, ~IgnoreLayerMask))
+            if (Input.GetButton("Fire1"))
             {
-                if (Input.GetButton("Fire1"))
+                if (Physics.Raycast(ray, out hit, Mathf.Infinity, ~IgnoreLayerMask))
                 {
-                    Debug.Log( "Name: " + hit.transform.gameObject.name );
+                 Debug.Log( "Name: " + hit.transform.gameObject.name );
                     Texture2D tex = hit.transform.gameObject.GetComponent < Renderer >().sharedMaterial.mainTexture as Texture2D;
 
                     // Find the u,v coordinate of the Texture
@@ -76,8 +76,10 @@ public class Paint : MonoBehaviour
                     
                     
                     tex.Apply();
-                }
+               
+                }    
             }
+            
     }
     
 }
