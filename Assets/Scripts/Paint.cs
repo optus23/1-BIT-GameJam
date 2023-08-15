@@ -8,12 +8,11 @@ public class Paint : MonoBehaviour
 {
     public LayerMask IgnoreLayerMask;
     public Camera MainCamera;
-    [SerializeField]
-    private Transform m_Cursor;
+
     
     void Start()
     {
-        //tex = new Texture2D(64,64);
+        IgnoreLayerMask.value = LayerMask.GetMask("IgnoreZoomEffect", "IgnorePaint", "Cursor");
     }
 
     void Update()
@@ -24,6 +23,7 @@ public class Paint : MonoBehaviour
             {
                 if (Input.GetButton("Fire1"))
                 {
+                    Debug.Log( "Name: " + hit.transform.gameObject.name );
                     Texture2D tex = hit.transform.gameObject.GetComponent < Renderer >().sharedMaterial.mainTexture as Texture2D;
 
                     // Find the u,v coordinate of the Texture
@@ -76,9 +76,7 @@ public class Paint : MonoBehaviour
                     
                     
                     tex.Apply();
-                } 
-                // Set Cursor Position
-                m_Cursor.position = new Vector3( hit.point.x, hit.point.y, hit.point.z);
+                }
             }
     }
     

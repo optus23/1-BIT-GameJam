@@ -268,7 +268,7 @@ GameObject:
   - component: {fileID: 135309429}
   - component: {fileID: 135309428}
   m_Layer: 6
-  m_Name: tattoo_machine
+  m_Name: Cursor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2034,6 +2034,7 @@ GameObject:
   - component: {fileID: 1423893242}
   - component: {fileID: 1423893243}
   - component: {fileID: 1423893244}
+  - component: {fileID: 1423893245}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2159,6 +2160,23 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_MaxRayIntersections: 0
+--- !u!114 &1423893245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423893237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d777a5fccc3d4f83bc1c669259e00fe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Cursor: {fileID: 135309429}
+  MainCamera: {fileID: 1423893240}
+  IgnoreLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!1 &1434189422
 GameObject:
   m_ObjectHideFlags: 0
@@ -2677,7 +2695,7 @@ GameObject:
   - component: {fileID: 1800675293}
   - component: {fileID: 1800675292}
   - component: {fileID: 1800675291}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PlaneBackground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2804,9 +2822,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IgnoreLayerMask:
     serializedVersion: 2
-    m_Bits: 192
+    m_Bits: 0
   MainCamera: {fileID: 1423893240}
-  m_Cursor: {fileID: 135309429}
 --- !u!4 &1949101043
 Transform:
   m_ObjectHideFlags: 0
@@ -3714,6 +3731,7 @@ SceneRoots:
   - {fileID: 1423893241}
   - {fileID: 1062048577}
   - {fileID: 677468046}
+  - {fileID: 135309429}
   - {fileID: 309633300}
   - {fileID: 1001628335}
   - {fileID: 291171704}
@@ -3725,4 +3743,3 @@ SceneRoots:
   - {fileID: 1339607673}
   - {fileID: 1346046006}
   - {fileID: 1394752120}
-  - {fileID: 135309429}
