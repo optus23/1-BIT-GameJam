@@ -17,21 +17,15 @@ public class Lighthouse : MonoBehaviour
     Light pointLight;
     Light directionalLight;
 
-    public Renderer[] renderer_assets;
-    Color colour;
-    float c = 0f;
-
     // Start is called before the first frame update
     void Start()
     {
-        pointLight = GameObject.Find("LuzFaro").GetComponent<Light>();
+        pointLight = GameObject.Find("Spot Light LightHouse").GetComponent<Light>();
         directionalLight = GameObject.Find("Directional Light").GetComponent<Light>();
         pointLight.intensity = intenP;
         directionalLight.intensity = intenD;
 
         changePerSecond = (minPValue - maxPValue) / timeToChange;
-
-        colour = new Color(c, c, c);
     }
 
     // Update is called once per frame
@@ -44,24 +38,14 @@ public class Lighthouse : MonoBehaviour
         {
             intenP = Mathf.Clamp(intenP - changePerSecond * Time.deltaTime, minPValue, maxPValue);
             intenD = Mathf.Clamp(intenD - changePerSecond * Time.deltaTime, minDValue, maxDValue);
-            c = Mathf.Clamp(c - changePerSecond * Time.deltaTime, 0.0f, 1.0f);
         }
         else
         {
             intenP = Mathf.Clamp(intenP + changePerSecond * Time.deltaTime, minPValue, maxPValue);
             intenD = Mathf.Clamp(intenD + changePerSecond * Time.deltaTime, minDValue, maxDValue);
-            c = Mathf.Clamp(c + changePerSecond * Time.deltaTime, 0.0f, 1.0f);
         }
 
         pointLight.intensity = intenP;
-        directionalLight.intensity = intenD;
-        colour.r = c;
-        colour.g = c;
-        colour.b = c;
-
-        for (int i = 0; i < renderer_assets.Length; i++)
-        {
-            renderer_assets[i].material.color = colour;
-        }
+        directionalLight.intensity = intenD;     
     }
 }
