@@ -90,7 +90,7 @@ public class Paint : MonoBehaviour
                    
                     
                 // Set Cursor Position
-                m_Cursor.position = new Vector3( hit.point.x, hit.point.y, hit.point.z);
+                m_Cursor.position = new Vector3( hit.point.x, hit.point.y, hit.point.z + 0.2f);
 
 
             }
