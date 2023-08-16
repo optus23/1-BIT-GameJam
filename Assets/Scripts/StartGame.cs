@@ -17,7 +17,7 @@ public class StartGame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButton("Fire1"))
+        if (Input.GetButtonDown("Fire1"))
         {
             Ray ray = MainCamera.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
@@ -27,6 +27,7 @@ public class StartGame : MonoBehaviour
                 {
                     button = hit.transform.gameObject;
                     button.SetActive(false);
+                    GameStateController.Instance.UpdateGameState(GameStateController.GameState.GAME);
                 }
             }
         }

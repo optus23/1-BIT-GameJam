@@ -2,27 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CursorPlacement : MonoBehaviour
+public class CursorPlacement : MouseController
 {
-
-    public Camera MainCamera;
-    public Transform m_Cursor;
     public LayerMask IgnoreLayerMask;
+    [SerializeField]
+    protected Transform m_Cursor;
 
-    void Start()
+    public override void Update()
     {
-        IgnoreLayerMask.value = LayerMask.GetMask("IgnoreZoomEffect", "IgnorePaint");
-    }
+        base.Update();
 
-    void Update()
-    {
-        Ray ray = MainCamera.ScreenPointToRay(Input.mousePosition);
+        Ray ray = m_Camera.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
-        if ( Physics.Raycast( ray, out hit, Mathf.Infinity ) )
+        if ( Physics.Raycast( ray, out hit, Mathf.Infinity, ~IgnoreLayerMask ) )
         {
             // Set Cursor Position
-            m_Cursor.position = new Vector3( hit.point.x, hit.point.y, hit.point.z);
-
+            m_Cursor.position = new Vector3( hit.point.x, hit.point.y, hit.point.z + 0.2f);
         }
     }
 }

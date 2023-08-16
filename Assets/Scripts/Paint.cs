@@ -4,27 +4,24 @@ using System.Collections.Generic;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
-public class Paint : MonoBehaviour
+public class Paint : MouseController
 {
     public Texture2D tex;
     public LayerMask IgnoreLayerMask;
-    public Camera MainCamera;
     public GameObject Plane;
-    [SerializeField]
-    private Transform m_Cursor;
     
     void Start()
     {
-        //tex = new Texture2D(64,64);
-
         Plane.GetComponent<Renderer>().sharedMaterial.mainTexture = tex;
     }
 
-    void Update()
+    public override void Update()
     {
+        base.Update();
+        
         if (tex != null)
         {
-            Ray ray = MainCamera.ScreenPointToRay(Input.mousePosition);
+            Ray ray = m_Camera.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit, Mathf.Infinity, ~IgnoreLayerMask))
             {
@@ -78,33 +75,11 @@ public class Paint : MonoBehaviour
                         tex.SetPixel((int)(-uv.x * tex.width) + 1, (int)(uv.y * tex.height) - 1, Color.red);
                     }
                     
-                    
-                    
-                    
-                    
-                    
                     tex.Apply();
-                } 
-               
-                  
-                   
-                    
-                // Set Cursor Position
-                m_Cursor.position = new Vector3( hit.point.x, hit.point.y, hit.point.z + 0.2f);
-
+                }
 
             }
-            //if (Input.GetButton("Fire2"))
-            //{
-            //    for (int i = 0; i < 128; i++)
-            //    {e
-            //        for (int j = 0; j < 128; j++)
-            //        {
-            //            tex.SetPixel(i, j, Color.white);
-            //        }
-            //    }
-            //    tex.Apply();
-            //}
+
         }
     }
     

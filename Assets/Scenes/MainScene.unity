@@ -268,7 +268,7 @@ GameObject:
   - component: {fileID: 135309429}
   - component: {fileID: 135309428}
   m_Layer: 0
-  m_Name: tattoo_machine
+  m_Name: Cursor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1979,6 +1979,7 @@ GameObject:
   - component: {fileID: 1423893242}
   - component: {fileID: 1423893243}
   - component: {fileID: 1423893244}
+  - component: {fileID: 1423893245}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2104,6 +2105,23 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_MaxRayIntersections: 0
+--- !u!114 &1423893245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423893237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d777a5fccc3d4f83bc1c669259e00fe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Camera: {fileID: 1423893240}
+  IgnoreLayerMask:
+    serializedVersion: 2
+    m_Bits: 192
+  m_Cursor: {fileID: 135309429}
 --- !u!1 &1434189422
 GameObject:
   m_ObjectHideFlags: 0
@@ -2575,10 +2593,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1949101043}
+  - component: {fileID: 1949101047}
+  - component: {fileID: 1949101046}
   - component: {fileID: 1949101042}
   - component: {fileID: 1949101044}
-  - component: {fileID: 1949101045}
-  - component: {fileID: 1949101046}
+  - component: {fileID: 1949101048}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -2598,13 +2617,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d10c369fb3023d9439ec8fe749dad34b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Camera: {fileID: 1423893240}
   tex: {fileID: 2800000, guid: 72573de75c4056446970d88526422225, type: 3}
   IgnoreLayerMask:
     serializedVersion: 2
     m_Bits: 192
-  MainCamera: {fileID: 1423893240}
   Plane: {fileID: 2046889986991926616}
-  m_Cursor: {fileID: 135309429}
 --- !u!4 &1949101043
 Transform:
   m_ObjectHideFlags: 0
@@ -2637,23 +2655,6 @@ MonoBehaviour:
   maxDValue: 1
   minDValue: 0
   timeToChange: 2
---- !u!114 &1949101045
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1949101041}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 746d2f7b1e01b3143940272c94287d39, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ZoomCamera: {fileID: 1062048577}
-  m_QuadRenderTexture: {fileID: 677468046}
-  m_Camera: {fileID: 1423893240}
-  m_CameraOffset: {x: 60, y: 60, z: 0}
-  m_Cursor: {fileID: 135309429}
 --- !u!114 &1949101046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2667,6 +2668,38 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MainCamera: {fileID: 1423893240}
+--- !u!114 &1949101047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949101041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e3ae799922824f48b2a0acb754a9b41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InGameScripts:
+  - {fileID: 1949101042}
+  - {fileID: 1949101048}
+  TimeLine: {fileID: 0}
+--- !u!114 &1949101048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949101041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf5cde0a4e3642819578a3bdd82fd865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Camera: {fileID: 1423893240}
+  m_ZoomCamera: {fileID: 1062048577}
+  m_QuadRenderTexture: {fileID: 677468046}
+  m_CameraOffset: {x: 60, y: 60, z: 0}
 --- !u!1 &2048490881
 GameObject:
   m_ObjectHideFlags: 0
@@ -3580,6 +3613,7 @@ SceneRoots:
   - {fileID: 1423893241}
   - {fileID: 1062048577}
   - {fileID: 677468046}
+  - {fileID: 135309429}
   - {fileID: 309633300}
   - {fileID: 1001628335}
   - {fileID: 291171704}
@@ -3592,5 +3626,4 @@ SceneRoots:
   - {fileID: 1339607673}
   - {fileID: 1346046006}
   - {fileID: 1394752120}
-  - {fileID: 135309429}
   - {fileID: 799573106}
