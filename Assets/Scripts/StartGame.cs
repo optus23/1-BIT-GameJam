@@ -7,6 +7,7 @@ public class StartGame : MonoBehaviour
 {
     public Camera MainCamera;
     GameObject button;
+    public GameObject credits;
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +27,7 @@ public class StartGame : MonoBehaviour
                 if (hit.transform.gameObject.name == "StartBtn")
                 {
                     button = hit.transform.gameObject;
+                    credits.SetActive(false);
                     button.SetActive(false);
                     GameStateController.Instance.UpdateGameState(GameStateController.GameState.GAME);
                 }
