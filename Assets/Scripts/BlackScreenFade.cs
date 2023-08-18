@@ -17,7 +17,7 @@ public class BlackScreenFade : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A)) { SceneTransition(); }
+        //if (Input.GetKeyDown(KeyCode.A)) { SceneTransition(); }
 
         if(callOnce && !fadeObject.fadeIn) { SceneTransition(); }
 

@@ -49,6 +49,18 @@ public class StartGame : MonoBehaviour
                     }
                     GameStateController.Instance.UpdateGameState(GameStateController.GameState.GAME);
                 }
+
+                else if (hit.transform.gameObject.name == "optus23")
+                {
+                    Application.OpenURL("https://optus23.github.io/");
+
+                }
+
+                else if (hit.transform.gameObject.name == "youis11")
+                {
+                    Application.OpenURL("https://youis11.github.io/");
+
+                }
             }
         }
     }
