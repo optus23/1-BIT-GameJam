@@ -8,6 +8,7 @@ public class StartGame : MonoBehaviour
     public Camera MainCamera;
     GameObject button;
     public GameObject credits;
+    FadeObject fdObject;
 
     // Start is called before the first frame update
     void Start()
@@ -27,8 +28,25 @@ public class StartGame : MonoBehaviour
                 if (hit.transform.gameObject.name == "StartBtn")
                 {
                     button = hit.transform.gameObject;
-                    credits.SetActive(false);
-                    button.SetActive(false);
+
+                    foreach (Transform aChild in credits.transform)
+                    {
+                        aChild.gameObject.AddComponent<FadeObject>();
+                        fdObject = aChild.GetComponent<FadeObject>();
+                        fdObject.FadeOutObject();
+                        if(fdObject.fadeOut == false)
+                        {
+                            aChild.gameObject.SetActive(false);
+                        }
+                    }
+
+                    button.gameObject.AddComponent<FadeObject>();
+                    fdObject = button.GetComponent<FadeObject>();
+                    fdObject.FadeOutObject();
+                    if (fdObject.fadeOut == false)
+                    {
+                        button.SetActive(false);
+                    }
                     GameStateController.Instance.UpdateGameState(GameStateController.GameState.GAME);
                 }
             }
