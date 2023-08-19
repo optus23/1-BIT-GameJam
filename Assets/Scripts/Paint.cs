@@ -24,7 +24,6 @@ public class Paint : MouseController
         mat = casterChangeTexture.mat;
         
         mat.mainTexture = tex;
-        
     }
 
     public override void Update()
