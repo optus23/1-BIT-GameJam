@@ -2,24 +2,28 @@ using UnityEngine;
 
 public class Paint : MouseController
 {
-    public Texture2D texFront;
-    public Texture2D texBack
-        ;
-    public LayerMask IgnoreLayerMask;
-    public GameObject Plane;
 
-    public Material SailorFront;
-    public Material SailorBack;
+        
+    public LayerMask IgnoreLayerMask;
+
     
     public Texture2D tex;
-    void Start()
+    public Material mat;
+
+    public struct AsignMaterials
     {
+        public Texture2D texture2D;
+        public Material mat;
     }
 
-    public void AssignTexture( Texture2D texture2D, Material mat )
+    public AsignMaterials asignMat;
+    
+    public void AssignTexture( MultipleCaster caster )
     {
-        tex = texture2D;
-        Plane.GetComponent<Renderer>().sharedMaterial.mainTexture = tex;
+        tex = caster.texture2D;
+        mat = caster.mat;
+        
+        mat.mainTexture = tex;
         
     }
 
@@ -27,7 +31,7 @@ public class Paint : MouseController
     {
         base.Update();
         
-        if (tex != null && texBack != null)
+        if (tex != null )
         {
             Ray ray = m_Camera.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
