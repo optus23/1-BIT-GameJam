@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Paint : MouseController
@@ -6,6 +7,7 @@ public class Paint : MouseController
         
     public LayerMask IgnoreLayerMask;
 
+    public AudioSource AudioSourceTattoo;
     
     public Texture2D tex;
     public Material mat;
@@ -38,6 +40,10 @@ public class Paint : MouseController
             {
                 if (Input.GetButton("Fire1"))
                 {
+                    // Audio tattoo machine
+                    float volume = AudioSourceTattoo.volume;
+                    AudioSourceTattoo.volume = Mathf.Lerp( volume, 1f, 1 - Mathf.Epsilon);
+                    
                     // Find the u,v coordinate of the Texture
                     Vector2 uv;
                     uv.x = (hit.point.x - hit.collider.bounds.min.x) / hit.collider.bounds.size.x;
@@ -87,6 +93,11 @@ public class Paint : MouseController
                     }
                     
                     tex.Apply();
+                }
+                else
+                {
+                    float volume = AudioSourceTattoo.volume;
+                    AudioSourceTattoo.volume = Mathf.Lerp( volume, 0f, 1 - Mathf.Epsilon);
                 }
 
             }
