@@ -2,20 +2,32 @@ using UnityEngine;
 
 public class Paint : MouseController
 {
-    public Texture2D tex;
+    public Texture2D texFront;
+    public Texture2D texBack
+        ;
     public LayerMask IgnoreLayerMask;
     public GameObject Plane;
+
+    public Material SailorFront;
+    public Material SailorBack;
     
+    public Texture2D tex;
     void Start()
     {
+    }
+
+    public void AssignTexture( Texture2D texture2D, Material mat )
+    {
+        tex = texture2D;
         Plane.GetComponent<Renderer>().sharedMaterial.mainTexture = tex;
+        
     }
 
     public override void Update()
     {
         base.Update();
         
-        if (tex != null)
+        if (tex != null && texBack != null)
         {
             Ray ray = m_Camera.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
