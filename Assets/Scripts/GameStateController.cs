@@ -4,17 +4,26 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.Timeline;
+using UnityEngine.Playables;
 
 public class GameStateController : Singleton <GameStateController>
 {
     public MonoBehaviour[] InGameScripts;
-    public TimelineAsset TimeLine;
+    public PlayableDirector director;
+    
     public enum GameState
     {
         START,
         GAME,
-        END
+        END,
+        RESTART
     }
+
+    public override void Awake()
+    {
+        base.Awake();
+    }
+
     private void Start()
     {
         UpdateGameState( GameState.START );
@@ -25,8 +34,9 @@ public class GameStateController : Singleton <GameStateController>
         switch ( state )
         {
             case GameState.START:
-   
-                //TODO: Stop Timeline
+
+                StopTimeline();
+                
                 foreach ( var script in InGameScripts )
                 {
                     script.enabled = false;
@@ -35,8 +45,9 @@ public class GameStateController : Singleton <GameStateController>
                 break;
 
             case GameState.GAME:
-    
-                //TODO: Start Timeline
+
+                StartTimeline();
+                
                 foreach ( var script in InGameScripts )
                 {
                     script.enabled = true;
@@ -45,8 +56,8 @@ public class GameStateController : Singleton <GameStateController>
                 break;
 
             case GameState.END:
-                //TODO: Stop Timeline
 
+                
                 foreach ( var script in InGameScripts )
                 {
                     script.enabled = false;
@@ -54,11 +65,34 @@ public class GameStateController : Singleton <GameStateController>
                 Debug.Log( "--- END STATE ---" );
 
                 break;
+            case GameState.RESTART:
+                StartTimeline();
+
+                UpdateGameState( GameState.START );
+                //TODO: Restart texture (no se como)
+
+                break;
 
             default:
                 throw new ArgumentOutOfRangeException();
         }
     }
-
-
+    
+    public void StartTimeline()
+    {
+        director.Play();
+    }
+    
+    public void StopTimeline()
+    {
+        director.Stop();
+    }
+    public void AsignEndGameState()
+    {
+        UpdateGameState( GameState.END );
+    }
 }
+
+
+
+

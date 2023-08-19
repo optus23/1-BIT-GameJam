@@ -1,25 +1,37 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class Paint : MouseController
 {
-    public Texture2D tex;
+
+        
     public LayerMask IgnoreLayerMask;
-    public GameObject Plane;
+
     
-    void Start()
+    public Texture2D tex;
+    public Material mat;
+
+    public struct AsignMaterials
     {
-        Plane.GetComponent<Renderer>().sharedMaterial.mainTexture = tex;
+        public Texture2D texture2D;
+        public Material mat;
+    }
+
+    public AsignMaterials asignMat;
+    
+    public void AssignTexture( MultipleCaster caster )
+    {
+        tex = caster.texture2D;
+        mat = caster.mat;
+        
+        mat.mainTexture = tex;
+        
     }
 
     public override void Update()
     {
         base.Update();
         
-        if (tex != null)
+        if (tex != null )
         {
             Ray ray = m_Camera.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;

@@ -2,15 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f8152e3-7e7a-4aee-bce4-9c53b1d828cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ZoomEffect.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ZoomEffect.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.1-BIT-GameJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.1-BIT-GameJam/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CursorPlacement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CursorPlacement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MouseController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MouseController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Paint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Paint.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StartGame.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StartGame.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameStateController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameStateController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Timeline/MainSquence.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Timeline/MainSquence.playable" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Timeline/Signals/EventBlowOutChandelier.signal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Timeline/Signals/EventBlowOutChandelier.signal.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Timeline/Signals/EventBoatCrash.signal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Timeline/Signals/EventBoatCrash.signal.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Timeline/Signals/EventBoatSinks.signal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Timeline/Signals/EventBoatSinks.signal.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Timeline/Signals/EventLightHouseStartsLighting.signal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Timeline/Signals/EventLightHouseStartsLighting.signal.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Timeline/Signals/EventLookToYou.signal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Timeline/Signals/EventLookToYou.signal.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Timeline/Signals/EventRainEraseTattooDrawing.signal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Timeline/Signals/EventRainEraseTattooDrawing.signal.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Timeline/Signals/EventSnooze.signal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Timeline/Signals/EventSnooze.signal.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +30,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CursorPlacement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameStateController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MouseController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MultipleCaster.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StartGame.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.7.5/Editor/Signals/SignalReceiverInspector.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -97,7 +108,9 @@
       <workItem from="1691920743738" duration="3362000" />
       <workItem from="1692004114276" duration="5636000" />
       <workItem from="1692090782135" duration="4247000" />
-      <workItem from="1692212121926" duration="6201000" />
+      <workItem from="1692212121926" duration="7061000" />
+      <workItem from="1692301999835" duration="595000" />
+      <workItem from="1692377617231" duration="5826000" />
     </task>
     <servers />
   </component>
