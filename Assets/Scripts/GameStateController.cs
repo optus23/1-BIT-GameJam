@@ -26,7 +26,7 @@ public class GameStateController : Singleton <GameStateController>
 
     private void Start()
     {
-        UpdateGameState( GameState.START );
+       UpdateGameState( GameState.START );
     }
 
     public void UpdateGameState(GameState state)
