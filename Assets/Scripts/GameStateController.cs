@@ -57,7 +57,6 @@ public class GameStateController : Singleton <GameStateController>
 
             case GameState.END:
 
-                StopTimeline();
                 
                 foreach ( var script in InGameScripts )
                 {
@@ -88,7 +87,10 @@ public class GameStateController : Singleton <GameStateController>
     {
         director.Stop();
     }
-
+    public void AsignEndGameState()
+    {
+        UpdateGameState( GameState.END );
+    }
 }
 
 

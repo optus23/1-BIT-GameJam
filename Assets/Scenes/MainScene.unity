@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.45045966, g: 0.50046, b: 0.5751806, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2615,7 +2615,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Events:
     m_Signals:
-    - {fileID: 0}
+    - {fileID: 11400000, guid: 0c9766609c61b3246b785ded4b0e7055, type: 2}
     - {fileID: 0}
     - {fileID: 11400000, guid: 2efb8dbb58efbf54a90328213e99530c, type: 2}
     - {fileID: 11400000, guid: 5dc4962fe4d367d4fa88db77f9f0c580, type: 2}
@@ -2624,9 +2624,22 @@ MonoBehaviour:
     - {fileID: 0}
     - {fileID: 11400000, guid: 280bbbf910f5f1d4092f407835e0202e, type: 2}
     - {fileID: 11400000, guid: 714fa6fa5a2183e4bb70bb8c39adf99c, type: 2}
+    - {fileID: 11400000, guid: 542485cbf945100489d10a1fd88790a7, type: 2}
     m_Events:
     - m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1949101047}
+          m_TargetAssemblyTypeName: GameStateController, Assembly-CSharp
+          m_MethodName: AsignEndGameState
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     - m_PersistentCalls:
         m_Calls: []
     - m_PersistentCalls:
@@ -2667,6 +2680,8 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls: []
 --- !u!114 &876177680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3553,7 +3568,7 @@ GameObject:
   - component: {fileID: 1456187135}
   - component: {fileID: 1456187134}
   - component: {fileID: 1456187133}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Coast
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4378,8 +4393,8 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
-  m_Range: 727.4802
-  m_SpotAngle: 48.94636
+  m_Range: 1395.255
+  m_SpotAngle: 59.5
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
@@ -4917,7 +4932,7 @@ GameObject:
   - component: {fileID: 2146767256}
   - component: {fileID: 2146767255}
   - component: {fileID: 2146767258}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: CoastWater
   m_TagString: Untagged
   m_Icon: {fileID: 0}
