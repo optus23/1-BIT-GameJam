@@ -18,10 +18,10 @@ public class Paint : MouseController
 
     public AsignMaterials asignMat;
     
-    public void AssignTexture( MultipleCaster caster )
+    public void AssignTexture( MultipleCasterChangeTexture casterChangeTexture )
     {
-        tex = caster.texture2D;
-        mat = caster.mat;
+        tex = casterChangeTexture.texture2D;
+        mat = casterChangeTexture.mat;
         
         mat.mainTexture = tex;
         

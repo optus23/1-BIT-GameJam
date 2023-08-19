@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MultipleCaster : MonoBehaviour
+public class MultipleCasterChangeTexture : MonoBehaviour
 {
 
     public Texture2D texture2D;

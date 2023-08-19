@@ -4,36 +4,21 @@ using UnityEngine;
 
 public class CameraShake : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    public void StartShake(MultipleCasterCameraShake cast)
     {
-        
+        StartCoroutine(Shake(cast));
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        ////test
-        //if (Input.GetKeyDown(KeyCode.E))
-        //{
-        //    StartShake(1f, 0.4f);
-        //}
-    }
-
-    public void StartShake(float shakeTime, float shakeMagnitude)
-    {
-        StartCoroutine(Shake(shakeTime, shakeMagnitude));
-    }
-
-    public IEnumerator Shake(float duration, float magnitude)
+    public IEnumerator Shake(MultipleCasterCameraShake cast)
     {
         Vector3 orignalPosition = transform.position;
         float elapsed = 0f;
 
-        while (elapsed < duration)
+        while (elapsed < cast.shakeTime)
         {
-            float x = Random.Range(-1f, 1f) * magnitude;
-            float y = Random.Range(-1f, 1f) * magnitude;
+            float x = Random.Range(-1f, 1f) * cast.shakeMagnitude;
+            float y = Random.Range(-1f, 1f) * cast.shakeMagnitude;
 
             transform.position = new Vector3(x, y, -10f);
             elapsed += Time.deltaTime;

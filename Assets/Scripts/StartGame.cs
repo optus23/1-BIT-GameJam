@@ -24,7 +24,7 @@ public class StartGame : MonoBehaviour
         {
             Ray ray = MainCamera.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
-            if (Physics.Raycast(ray, out hit, Mathf.Infinity, ~IgnoreLayerMask))
+            if (Physics.Raycast(ray, out hit, Mathf.Infinity, ~IgnoreLayerMask) )
             {
                 if (hit.transform.gameObject.name == "StartBtn")
                 {
