@@ -30,24 +30,11 @@ public class StartGame : MonoBehaviour
                 {
                     button = hit.transform.gameObject;
 
-                    foreach (Transform aChild in credits.transform)
-                    {
-                        aChild.gameObject.AddComponent<FadeObject>();
-                        fdObject = aChild.GetComponent<FadeObject>();
-                        fdObject.FadeOutObject();
-                        if(fdObject.fadeOut == false)
-                        {
-                            aChild.gameObject.SetActive(false);
-                        }
-                    }
-
                     button.gameObject.AddComponent<FadeObject>();
                     fdObject = button.GetComponent<FadeObject>();
                     fdObject.FadeOutObject();
-                    if (fdObject.fadeOut == false)
-                    {
-                        button.SetActive(false);
-                    }
+                    Invoke("SetActiveFalse", 2.0f);
+
                     GameStateController.Instance.UpdateGameState(GameStateController.GameState.GAME);
                 }
 
@@ -60,9 +47,29 @@ public class StartGame : MonoBehaviour
                 else if (hit.transform.gameObject.name == "youis11")
                 {
                     Application.OpenURL("https://youis11.github.io/");
+                }
 
+                else if (hit.transform.gameObject.name == "RestartBtn")
+                {
+                    foreach (Transform aChild in credits.transform)
+                    {
+                        button = aChild.gameObject;
+                        fdObject = aChild.GetComponent<FadeObject>();
+                        fdObject.FadeOutObject();
+                        fdObject.fadeOut = false;
+                        Invoke("SetActiveFalse", 2.0f);
+                    }
+
+                    button = hit.transform.gameObject;
+                    Invoke("SetActiveFalse", 2.0f);
+                    GameStateController.Instance.UpdateGameState(GameStateController.GameState.RESTART);
                 }
             }
         }
+    }
+
+    private void SetActiveFalse()
+    {
+        button.SetActive(false);
     }
 }
