@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4f8152e3-7e7a-4aee-bce4-9c53b1d828cf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.1-BIT-GameJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.1-BIT-GameJam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Dither/Furniture/OldPaperEmpty.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Dither/Furniture/OldPaperEmpty.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/optus.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/optus.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/youis11.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/youis11.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraShake.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraShake.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameStateController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameStateController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MultipleCaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MultipleCasterChangeTexture.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MultipleCaster.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MultipleCasterChangeTexture.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Paint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Paint.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/StartGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StartGame.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Timeline/MainSquence.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Timeline/MainSquence.playable" afterDir="false" />
