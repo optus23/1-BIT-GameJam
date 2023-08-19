@@ -10,9 +10,9 @@ public class Rotate : MonoBehaviour
 
     public GameObject background;
     private List<Renderer> renderers;
+    public Renderer backdrawableRenderer;
     Color colour;
     float c = 0f;
-    bool add = false;
     float changePerSecond; // modify the total, every second
     public float timeToChange = 1f; // the total time myValue will take to go from max to min
 
@@ -28,6 +28,7 @@ public class Rotate : MonoBehaviour
 
             renderers.Add(child);
         }
+        renderers.Add(backdrawableRenderer);
 
         changePerSecond = (0.0f - 1.0f) / timeToChange;
 
