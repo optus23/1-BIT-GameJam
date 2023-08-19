@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4f8152e3-7e7a-4aee-bce4-9c53b1d828cf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.1-BIT-GameJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.1-BIT-GameJam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Dither/Sailor/DraweableBack.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Dither/Sailor/DraweableBack.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Paint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Paint.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StartGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StartGame.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Timeline/MainSquence.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Timeline/MainSquence.playable" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/shirtless-old-man-from-behind0-J2AYJE copia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/shirtless-old-man-from-behind0-J2AYJE copia.png.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
