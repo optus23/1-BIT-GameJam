@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.45045966, g: 0.50046, b: 0.5751806, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -970,6 +970,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotSpeed: 15
   background: {fileID: 619415405}
+  backdrawableRenderer: {fileID: 779017388}
   timeToChange: 1
 --- !u!1 &249986543
 GameObject:
